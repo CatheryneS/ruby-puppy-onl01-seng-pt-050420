@@ -1,7 +1,7 @@
 class Dog 
   @@all = []
   
-  def initialize (dog_name)
+  def initialize (dog_name = "Pup")
     @name = dog_name
   end
   
