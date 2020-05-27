@@ -3,9 +3,10 @@ class Dog
   
   def initialize (dog_name = "Pup")
     @name = dog_name
+    @@all << self
   end
   
   def self.all
-    @@all   
+    @@all
   end
 end
